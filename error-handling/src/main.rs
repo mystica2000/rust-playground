@@ -35,7 +35,6 @@ fn is_integer_result_to_option(str: &str) -> Option<i32> {
 }
 
 fn main() {
-  println!("Hello, world!");
 
   match is_integer_using_option("test") {
     Some(num) => println!("Number is {}", num),
